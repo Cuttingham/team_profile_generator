@@ -11,7 +11,7 @@ const createManager = function (manager) {
 
              <div class = 'card-body'>
                 <p class = 'id'>ID: ${manager.id}</p>
-                <p class = 'email'>Email: <a href = "mailto:${manager.email}"${manager.email}</a></p>
+                <p class = 'email'>Email: <a href = "mailto:${manager.email}">${manager.email}</a></p>
                 <p class = "office">Office Number: ${manager.officeNumber}</p>
              </div>
          </div>
@@ -46,7 +46,7 @@ return `
 <div class="card h-100">
     <div class="card-header">
         <h3>${intern.name}</h3>
-        <h4>Intern</h4><i class="material-icons">assignment_ind</i>
+        <h4>Intern</h4>
     </div>
 
     <div class="card-body">
@@ -78,7 +78,7 @@ createTemplate =(employeeInfo) =>{
             employeeBucket.push(engineerCard);
         }
         if (employeeRole === 'Intern') {
-            const internCard = createEngineer(employee);
+            const internCard = createIntern(employee);
 
             employeeBucket.push(internCard);
         }

@@ -1,0 +1,25 @@
+:root {
+    --myRed:rgb(128, 0, 0); 
+    --myWhite:rgba(246, 246, 246, 0.59);
+}
+
+#navbar {
+    background-color:var(--myRed);
+    color:rgba(233, 229, 229, 0.458);
+    font-size:100px;
+}
+
+#navbar-text{
+    font-size:60px;
+}
+
+.card-header{
+    background-color:var(--myRed);
+    color: var(--myWhite);
+}
+
+.card-body{
+
+    background-color:var(--myRed);
+    color:var(--myWhite);
+}
