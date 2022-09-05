@@ -5,7 +5,7 @@ const createManager = function (manager) {
     <div class = "col-4 mt-4">
         <div class ='card'>
             <div class='card-header'>
-                <h2 ${manager.name}</h2>
+                <h2> ${manager.name}</h2>
                 <h3>Manager</h3>
             </div>
 
@@ -127,4 +127,4 @@ return `
 }
 
 
-module.exports = htmlTemplate;
+module.exports = createTemplate;
