@@ -1,4 +1,4 @@
-// manager card
+
 
 const createManager = function (manager) {
     return `

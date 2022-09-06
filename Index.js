@@ -181,11 +181,11 @@ return inquirer.prompt([
 
 const writeFile = data => {
    fs.writeFile('./created_page/index.html', data, err => {
-       // if there is an error 
+   
        if (err) {
            console.log(err);
            return;
-       // when the profile has been created 
+     
        } else {
            console.log("Your team profile has been successfully created! Please check out the index.html")
        }
